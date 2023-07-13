@@ -1,0 +1,30 @@
+*{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.header{
+    text-align: center;
+    padding: 10px;
+    background-color:coral;
+    min-height: 30vh;
+
+}
+.header h1{
+    font-size: 50px;
+
+}
+.header ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 10px 20px;
+    color: black;
+}
+.header a{
+    text-decoration: none;
+    font-size: 20px;
+    color: rgb(41, 41, 172);
+}
+h2,h3,h4{
+    color: rgb(41, 41, 172);
+    font-size:30px;
+}
