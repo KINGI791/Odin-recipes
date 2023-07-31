@@ -95,15 +95,15 @@ img {
   margin-top: 35px;
   margin-left: 20px;
 }
-.recipe-img {
-  display: inline-block;
-  width: 400px;
-  padding: 10px 40px;
+.photo-container {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 10px;
+  padding: 9px;
+  width: auto;
+  align-items: center;
 }
-.recipe-img img {
-  margin: 8px 8px;
-  padding: 5px;
-}
+
 .intro {
   text-align: center;
 }
