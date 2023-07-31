@@ -35,6 +35,9 @@ h4 {
   background-color: antiquewhite;
   border: 2px solid black;
 }
+.recipe.home {
+  height: auto;
+}
 .description {
   display: inline-block;
   width: 800px;
@@ -48,6 +51,11 @@ img {
   width: 400px;
   height: auto;
 }
+.pic img {
+  width: 300px;
+  height: auto;
+}
+
 .description h2 {
   margin-top: 0px;
   margin-bottom: 0;
@@ -86,4 +94,25 @@ img {
 .Steps h4 {
   margin-top: 35px;
   margin-left: 20px;
+}
+.recipe-img {
+  display: inline-block;
+  width: 400px;
+  padding: 10px 40px;
+}
+.recipe-img img {
+  margin: 8px 8px;
+  padding: 5px;
+}
+.intro {
+  text-align: center;
+}
+.intro p {
+  font-size: 20px;
+}
+.intro a {
+  border: 1px solid black;
+  padding: 2px;
+  text-decoration: none;
+  font-size: 20px;
 }
